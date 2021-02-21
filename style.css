@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	background: #f2fffd;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #062c6d;
+}
+header {
+	margin-left: 28px;
+}
+.container{
+	max-width: 1000px;
+	background-color: #def2fc;
+	padding: 20px;
+	margin: 0 auto;
+}
+.avata{
+	width: 150px;
+	height: 150px;
+	border:2px solid #a2cef9;
+	border-radius: 100px;
+	float: left;
+}
+.header-left{
+	float: left;
+	padding: 26px;
+	margin-left: 135px;
+}
+.header-left p{
+	font-size: 25px;
+	font-weight: 600;
+	color: #000570;
+}
+
+.header-left p a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #031d56;
+}
+
+.header-left p a:hover {
+    color: red;
+}
+.header-right{
+	float: right;
+	padding: 30px;
+}
+.header-right a{
+	text-decoration: none;
+	font-size: 17px;
+}
+.header-right a:hover{
+	text-decoration: underline;
+	color:#ff0707;
+}
+.div-clear{
+	clear: both;
+}
+hr{
+	border: 2px solid #000;
+	width: 100%;
+	border-radius: 2px;
+	margin: 20px auto;
+	border-bottom: none;
+}
+
+/* Parsonal Information */
+.content{
+	
+}
+.content-left{
+	width: 35%;
+	float: left;
+}
+.content-right{
+	width: 65%;
+	float: left;
+
+}
+.content-right p{
+	font-size: 17px;
+	line-height: 25px;
+}
+.hrr{
+	border:1px solid #000;
+	border-bottom: none;
+	width: 100%;
+	margin: 20px auto;
+
+}
+.left{
+	width: 25%;
+	float: left;
+}
+.right{
+	width: 47%; 
+	float: left;
+}
+.contact{
+	text-align: center;
+}
+.footering ul{
+		text-align: center;
+
+}
+.footering ul li{
+	display: inline-block;
+	margin: 10px;
+
+}
+.footering ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.copy{
+	text-align: center;
+}
